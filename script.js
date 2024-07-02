@@ -1,35 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     const slides = document.querySelectorAll(".header");
-//     let slideIndex = 0;
-//     const interval = 3000; // Interval in milliseconds (3 seconds)
-
-//     // Function to move to the next slide
-//     function moveToNextSlide() {
-//         // Move to the next slide index
-//         slideIndex++;
-//         if (slideIndex >= slides.length) {
-//             slideIndex = 0; // Reset to the first slide if reached the end
-//         }
-
-//         // Calculate the translation value
-//         const translateValue = `translateX(-${slideIndex * 100}%)`;
-
-//         // Apply the transform to each slide
-//         slides.forEach(slide => {
-//             slide.style.transform = translateValue;
-//         });
-//     }
-
-//     // Set initial position for each slide
-//     slides.forEach((slide, index) => {
-//         slide.style.transform = `translateX(${index === 0 ? 0 : 100}%)`; // Start position, first slide centered
-//     });
-
-//     // Automatically move to the next slide every interval
-//     setInterval(moveToNextSlide, interval);
-// });
-
-
 const data = [
     {
         id: 1,
